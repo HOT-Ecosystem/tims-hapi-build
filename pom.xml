@@ -45,6 +45,11 @@
 
     <dependencies>
         <dependency>
+            <groupId>com.essaid.fhir.hapi</groupId>
+            <artifactId>com.essaid.fhir.hapi.extensions</artifactId>
+            <version>0.1.4-SNAPSHOT</version>
+        </dependency>
+        <dependency>
             <groupId>org.eclipse.jetty.websocket</groupId>
             <artifactId>websocket-jetty-api</artifactId>
             <version>${jetty_version}</version>
