@@ -17,4 +17,4 @@ DIR="$(cd -P "$(dirname "$SOURCE")" && pwd)"
 
 cd "${DIR}/.."
 
-./mvnw -DskipTests -Pboot clean package
+./mvnw -U -DskipTests -Pboot clean package
